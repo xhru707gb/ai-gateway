@@ -44,6 +44,8 @@ The AI Gateway runs as an Envoy external processor (ext_proc) sidecar, intercept
 
 See the `examples/` directory for sample configurations for each supported provider.
 
+> **Personal note:** I've been primarily testing with the Ollama provider locally using `llama3` and `mistral` models. The `examples/ollama/` config works out of the box with minimal changes.
+
 ## Supported Providers
 
 | Provider       | Status |
